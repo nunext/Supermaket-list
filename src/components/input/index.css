@@ -6,11 +6,16 @@
   width: 452px;
   height: 48px;
   border-radius: 8px;
-  border-color: #7785db;
   border-width: 2px;
+  border-color: #7785db;
   border-style: solid;
-  padding-top: 6px;
-  padding-left: 6px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 420px) {
+  .input-container {
+    max-width: 300px;
+  }
 }
 
 .input-label {
@@ -25,6 +30,7 @@
   border: 0px transparent;
   margin-left: 6px;
   font-size: 16px;
+  font-family: "Avenir Next";
 }
 
 .input:focus {
